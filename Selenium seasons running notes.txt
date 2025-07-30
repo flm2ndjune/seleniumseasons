@@ -1,0 +1,104 @@
+****************************************
+Selenium Season - 1
+****************************************
+--------------------------------------------------
+Day 16 : 30th July  - Wednesday
+--------------------------------------------------
+
+
+what is need of automation ?
+Regression suite --> 500 TCs 
+
+Automation -> process of converting Tc's to Test Scripts using some tool
+
+Selenium : 
+Web browser automation tool 
+https://www.selenium.dev/
+
+Selenium automates browsers. That's it!
+
+Ads :
+
+1. free , no license 
+2. open source : https://github.com/seleniumhq/selenium
+3. cross browser testing : chrome / firefox/edge/safari 
+4. cross paltform or OS 
+5. TDD : integrate Selenium + TestNG/PYTest/phpunit/mocha etc ..
+6. BDD : integrate Selenium + Cucumber / Jbehave etc ..
+7. CICD + Selenium : Jenkins / Bamboo etc 
+
+DisAds: 
+
+1. No API testing 
+2. No Mobile but use Appium +Selenium Webdriver
+3. No Performance
+4. No Security
+5. Can't automate QR vode , Captcha, bots 
+6. No OTP automation
+7. No Desktop application automate 
+
+--------------------------------------------
+Selenium is an API  or jars 
+
+Selenium Architecture 
+
+selenium version :
+
+4.X version (tell x from 20 )
+today latest 4.34
+ans : 4.24 
+3.141.59 no one using this 
+
+how to download and install selenium :
+
+step 1:
+https://www.selenium.dev/downloads/
+
+step 2: 
+Here click on "releases" hyperlink 
+
+Previous Releases
+Here you can find a more complete list of Selenium releases.
+
+Step 3 :  expand selenium3.141.59
+
+step 4 : click on selenium-server-standalone-3.141.59.jar
+
+then selenium jar is downloaded 
+
+how to add selenium jar to java project ?
+
+step 1: 
+
+right cllick on project --> build path --> click on "configure build path "
+--> click on "Libraries" tab --> click on "Classpath" --> click on "Add External jars" button 
+now navigate to the location where your jar is --> select that jar --> click open --> click "apply and close"
+
+Then you will see selenium jar under "Referenced Libraries"
+
+=======================================
+org.openqa.selenium
+		|
+		
+which version of chrome version ?
+138 verison 
+
+		
+Exception in thread "main" java.lang.IllegalStateException: 
+The path to the driver executable must be set by the webdriver.chrome.driver 
+system property; for more information, 
+see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
+ The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+
+
+https://github.com/bonigarcia/webdrivermanager/releases/tag/webdrivermanager-6.2.0
+
+
+
+
+here download "webdrivermanager-6.2.0-fat.jar"
+
+
+
+
