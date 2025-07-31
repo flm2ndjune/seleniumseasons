@@ -1,8 +1,9 @@
 package browserlaunching;
 
-import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.opera.OperaDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ChromeLaunch2 {
 
@@ -10,8 +11,9 @@ public class ChromeLaunch2 {
 		//approach 2
 		//using selenium 3.141.59 + WebDriver Manager
 		
-		WebDriverManager.chromedriver().setup();
-		new ChromeDriver();
+		//WebDriverManager.chromedriver().setup();
+		//new ChromeDriver();
+		
 
 	}
 

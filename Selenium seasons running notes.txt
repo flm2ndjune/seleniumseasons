@@ -2,7 +2,7 @@
 Selenium Season - 1
 ****************************************
 --------------------------------------------------
-Day 16 : 30th July  - Wednesday
+Day 17 : 30th July  - Wednesday
 --------------------------------------------------
 
 
@@ -99,6 +99,89 @@ https://github.com/bonigarcia/webdrivermanager/releases/tag/webdrivermanager-6.2
 
 here download "webdrivermanager-6.2.0-fat.jar"
 
+--------------------------------------------------
+Day 18 : 31st July  - Thursday
+--------------------------------------------------
 
 
+we will use selenium 4.2x verison
+selenium-server-4.24.0.jar
 
+SearchContext(I) 
+	findElement(By)
+	findElements(By)
+WebDriver(I)
+	  Navigation(I)
+	  Options(I)
+	  TargetLocator(I)
+	  Timeouts(I)
+	  Window(I)
+	close()
+	findElement(By)
+	findElements(By)
+	get(String)
+	getCurrentUrl()
+	getPageSource()
+	getTitle()
+	getWindowHandle()
+	getWindowHandles()
+	manage()
+	navigate()
+	quit()
+	switchTo()
+	
+ChromeDriver()
+ChromeDriver(ChromeDriverService)
+ChromeDriver(ChromeDriverService, ChromeOptions)
+ChromeDriver(ChromeDriverService, ChromeOptions, ClientConfig)
+ChromeDriver(ChromeOptions)
+
+
+==========================================
+WebDriver Methods(13)
+==========================================
+get(String):void
+this will open url which is given in form of String 
+here String is url 
+-------------------------------------------
+close():void 
+this will close the window or the tab on which  the webdriver focus 
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+
+
+--------------------------------------------
+quit():void
+this will close the window/windows or tabs opened during that session
+----------------------------------------------
+
+close 				() vs quit()
+
+close only 					close all windows / tabs 
+1 window or tab
+
+
+close will not kill		quit will kill driverexecutable 
+driverexecutable          e.g chromedriver.exe 
+e.g chromedriver.exe 
+
+---------------------------------------------------------------
+getTitle():String 
+this will return the title of page in form of string
+---------------------------------------------------------------
+getCurrentUrl():String
+
+this will return the url present in address bar in form of string 
+----------------------------------------------------------------
+	findElement(By)
+	findElements(By)
+	
+	
+	getPageSource()
+	
+	getWindowHandle()
+	getWindowHandles()
+	manage()
+	navigate()
+
+	switchTo()
