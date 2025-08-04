@@ -258,7 +258,7 @@ findElement(By):WebElement
 By(C): 
 
 className(String):By
-cssSelector(String)
+cssSelector(String):By
 id(String)
 linkText(String)
 name(String)
@@ -294,3 +294,128 @@ Driver info: driver.version: EdgeDriver
 --------------------------------------------------
 Day 20 : 4th August  - Monday
 --------------------------------------------------
+
+
+Locators in Selenium (8): 
+
+className(String)
+cssSelector(String)
+id(String)
+linkText(String)
+name(String)
+partialLinkText(String)
+tagName(String)
+xpath(String)
+
+-------------------------------------------
+based on attributes (3):
+
+id(String): here String is id attrbute value 
+e.g 
+
+<input type="text" name="username" id="username" class="login_input" value="">
+
+driver.findElement(By.id("username"))
+
+
+name(String):
+
+driver.findElement(By.name("username"))
+
+className(String): not prefered 
+driver.findElement(By.className("login_input")
+
+
+------------------------------------------------
+based on linktext (2):  only applicable for links 
+
+now to find which element is link ?
+
+a html having tagName as "a" or anchor tag or i.e <a 
+
+<a href="ForgotPassword.php">Forgot Password?</a>
+
+linkText(String) : here String is the text present in between > and < 
+
+driver.findElement(By.linkText("Forgot Password?"))
+
+partialLinkText(String): here String is subset of text present in between > and <  
+
+driver.findElement(By.partialLinkText("Forgot"));
+
+or
+
+driver.findElement(By.partialLinkText("got Pass"));
+
+------------------------------------------------------------
+
+based on tagName (1): not suitable for single element focus
+
+useful to collect similar items (used mostly with findElements)
+
+tagName(String): here String is tagname of element 
+
+e.g : 
+to find all links in a page 
+
+driver.findElements(By.tagName("a"))
+
+------------------------------------------------------------------
+
+based on tagname and attributes or tagname , attrbutes and text (2)
+
+xpath(String): 
+
+//td[text()='Important Note:']
+
+driver.findElement(By.xpath("//td[text()='Important Note:']"));
+
+cssSelector(String): 
+
+
+td.build_title
+
+driver.findElement(By.cssSelector("td.build_title"));
+
+----------------------------------------------------------------------
+to perform actions on any element in html 
+
+***************************************
+Methods in WebElement (16+5)
+***************************************
+
+WebElement(I): 
+
+clear()
+click()
+findElement(By)
+findElements(By)
+getAttribute(String)
+getCssValue(String)
+getLocation()
+getRect()
+getSize()
+getTagName()
+getText()
+isDisplayed()
+isEnabled()
+isSelected()
+sendKeys(CharSequence...)
+submit()
+---------------------------------------------
+sendKeys(CharSequence...):void 
+here CharSequence... is nothing but String 
+this will type text or string passed on to webelement 
+for textboxex,textarea,dropdown etc ..
+
+-----------------------------------------------
+click():void 
+
+this will click on any webelement (button , img ,radio button, link , check box etc ..)
+-------------------------------------------------
+clear():void 
+
+this will clear text present in textboxes or text areas 
+
+------------------------------------------------------
+getText():String
