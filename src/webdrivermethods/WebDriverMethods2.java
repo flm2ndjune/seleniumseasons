@@ -17,6 +17,8 @@ public class WebDriverMethods2 {
 		
 		System.out.println(driver.getCurrentUrl());
 		
+		System.out.println(driver.getPageSource());
+		
 		driver.quit();
 
 	}

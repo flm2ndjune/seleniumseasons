@@ -173,15 +173,124 @@ getCurrentUrl():String
 
 this will return the url present in address bar in form of string 
 ----------------------------------------------------------------
-	findElement(By)
-	findElements(By)
+	
+		
 	
 	
-	getPageSource()
 	
-	getWindowHandle()
-	getWindowHandles()
-	manage()
-	navigate()
+	
 
-	switchTo()
+	
+	
+--------------------------------------------------
+Day 19 : 1st August  - Friday
+--------------------------------------------------
+
+getPageSource():String 
+
+it will retrive the html page source 
+
+
+getWindowHandle():String 
+588996346D0F8BD38D7E2CB7825BC2A7
+
+this will retrive the window id of the window/tab on which webdriver focus is 
+in form string (which is in hex decimal format)
+
+-------------------------------------------
+getWindowHandles():Set<String>
+this will retrive the window ids of the all windows/tabs open and aactive till that point 
+in form collection of string (which is in hex decimal format)
+----------------------------------------------
+manage():Options
+
+this is to handle cookies , synchronization or waits , window sizes 
+
+Options(I) methods 
+
+addCookie(Cookie)
+deleteAllCookies()
+deleteCookie(Cookie)
+deleteCookieNamed(String)
+getCookieNamed(String)
+getCookies()
+logs()
+timeouts()
+window():Window 
+
+Window(I) methods 
+fullscreen()
+getPosition()
+getSize()
+maximize():void 
+minimize()
+setPosition(Point)
+setSize(Dimension)
+
+-----------------------------------------------
+navigate():Navigation
+
+Navigation(I) methods 
+
+back()
+forward()
+refresh()
+to(String)
+to(URL)
+---------------------------------------------------
+switchTo():TargetLocator (will be discussed under 
+Selenium Season 2 topics like Alert handling, frames handling and multiple window handling)
+
+TargetLocator(I) methods 
+activeElement()
+alert()
+defaultContent()
+frame(int)
+frame(String)
+frame(WebElement)
+parentFrame()
+newWindow(WindowType)
+window(String)
+---------------------------------------------------
+
+findElement(By):WebElement
+
+By(C): 
+
+className(String):By
+cssSelector(String)
+id(String)
+linkText(String)
+name(String)
+partialLinkText(String)
+tagName(String)
+xpath(String)
+
+HTML Terminology :
+
+<input type="text" name="username" id="username" class="login_input" value="">
+
+<tagName attribute1="value of attribute1" ... attributen="value of attributen">
+
+<a href="ForgotPassword.php">Forgot Password?</a>
+
+<tagName attribute1="value of attribute1" ... attributen="value of attributen">text on element</tagName>
+
+findElements(By)
+	
+	
+Aug 01, 2025 9:21:12 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_138_WINDOWS)
+Exception in thread "main" org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_138_WINDOWS)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	
+--------------------------------------------------
+Day 20 : 4th August  - Monday
+--------------------------------------------------
