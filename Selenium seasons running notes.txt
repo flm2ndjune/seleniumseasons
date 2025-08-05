@@ -418,4 +418,52 @@ clear():void
 this will clear text present in textboxes or text areas 
 
 ------------------------------------------------------
+
+--------------------------------------------------
+Day 20 : 4th August  - Monday
+--------------------------------------------------
+
 getText():String
+
+>text on element<
+-------------------------------------------
+getAttribute(String):String 
+
+
+<tagName attribute1="value of attribute1" ... attributen="value of attributen">
+
+https://adactinhotelapp.com/ForgotPassword.php
+
+case 1 : attribute is present with value assigned 
+o/p  : value of attribute 
+
+case 2: attribute is not present
+o/p : null or empty string 
+
+case 3: attribute is present but value is not assigned (for check boxes and radio button)
+o/p : true 
+
+
+------------------------------------------------------------
+
+getCssValue(String):String 
+
+to retrive css values like color,font-size etc ..
+--------------------------------------------------------------
+getLocation():Point --> getX():int   getY:int
+this will retrive the left most x,y coordinates of webelement
+
+getSize(): Dimension --> getHeight():int  getWidth():int 
+this will retrive the height and width 
+
+getRect(): Rectangle 
+--> getX():int   getY:int getHeight():int  getWidth():int 
+------------------------------------------------------------------
+getTagName():String 
+
+---------------------------------------------------------------------
+isDisplayed():boolean
+
+isEnabled():boolean
+isSelected():boolean
+

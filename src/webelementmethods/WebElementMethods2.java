@@ -17,6 +17,14 @@ public class WebElementMethods2 {
 		
 	  System.out.println(driver.findElement(By.id("username_span")).getText());
 	  
+	  System.out.println(driver.findElement(By.id("username_span")).getAttribute("class"));
+	  System.out.println(driver.findElement(By.id("username_span")).getAttribute("href"));
+	  System.out.println(driver.findElement(By.id("username_span")).getCssValue("color"));
+	  System.out.println(driver.findElement(By.id("username_span")).getCssValue("font-size"));
+	  
+	  //System.out.println(driver.findElement(By.linkText("Forgot Password?")).getAttribute("href"));
+	  //System.out.println(driver.findElement(By.linkText("Forgot Password?")).getAttribute("id"));
+	  //System.out.println("hi..");
 	  driver.quit();
 		
 		
