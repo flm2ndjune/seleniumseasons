@@ -420,7 +420,7 @@ this will clear text present in textboxes or text areas
 ------------------------------------------------------
 
 --------------------------------------------------
-Day 20 : 4th August  - Monday
+Day 21 : 5th August  - Tuesday
 --------------------------------------------------
 
 getText():String
@@ -464,6 +464,53 @@ getTagName():String
 ---------------------------------------------------------------------
 isDisplayed():boolean
 
-isEnabled():boolean
+
+
+--------------------------------------------------
+Day 22 : 6th August  - Wednesday
+--------------------------------------------------
+isEnabled():boolean ( i will give good example)
+
 isSelected():boolean
+will be used to check radio buttons , check boxes , dropdown items 
+---------------------------------
+submit():void 
+this is only applicale for forms 
+means html element having "form" tagname 
+
+-----------------------------------
+findElement(By):WebElement
+findElements(By):List<WebElement>
+------------------------------------
+
+NoSuchElementException:
+
+Exception in thread "main" org.openqa.selenium.NoSuchElementException:
+ no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/button"}
+ 
+Reason 1 : locator might be wrong 
+solution 1: correct the locator 
+
+Reason 2: synchronization issue or waits issue or page loading issue
+Solution 2: use wait mechanism 
+
+Reason 3: if the element is present inside a frame or iframe 
+Solution 3: switch to that frame 
+
+??????????????????????????????????????????????????????
+Assignment 1
+??????????????????????????????????????????????????????
+https://the-internet.herokuapp.com/login
+
+enter username tomsmith
+enter password SuperSecretPassword!
+click login
+print the flash message after login 
+check "border-color" of flash message  ==> rgba(69, 122, 26, 1)
+click logout
+print the flash message after logout 
+
+???????????????????????????????????????????????????????????
+
+
 
