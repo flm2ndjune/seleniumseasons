@@ -564,3 +564,37 @@ click on "Create new account"
 select your date of birth 
 
 ???????????????????????????????????????????????????????????
+
+**********************************************
+Selenium Season -2 
+**********************************************
+--------------------------------------------------
+Day 35 : 26th August  - Tuesday
+--------------------------------------------------
+
+Links Testing 
+
+if we want to focus on more than one element in a WebPage 
+then we should use findElements method of WebDriver 
+
+findElements(By):List<WebElement> 
+
+default implementation of List interface is ArrayList 
+
+how to iterate to each element in ArrayList
+
+i) using for loop and get(i) 
+ii) for each loop 
+iii) iterator() 
+
+StaleElementReferenceException : stale element reference: stale element not found
+
+Reason : There is chnage in DOM(Document Object Model) structure due to some activity
+in this case we navigated to new page and coming back to old page 
+but the DOM is treated new but still we are using old WebElement references
+
+Solution : Create / Initiliaze new references 
+
+
+
+
