@@ -596,5 +596,33 @@ but the DOM is treated new but still we are using old WebElement references
 Solution : Create / Initiliaze new references 
 
 
+--------------------------------------------------
+Day 36 : 28th August  - Thursday
+--------------------------------------------------
 
+
+Select (C) : org.openqa.selenium.support.ui
+
+constructor : Select(WebElement)
+
+getOptions():List<WebElement>
+
+https://www.jotform.com/form/232851259741056
+
+
+
+
+******************************************** 
+TestNG - unit Testing Framework
+********************************************
+
+TestNG --> here NG means  next Generation 
+
+
+java - JUnit / TestNG / 
+.net - NUnit 
+python - pytest / UnitTest 
+
+
+TestNG -> JUnit + NUnit 
 
