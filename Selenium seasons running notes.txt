@@ -626,3 +626,55 @@ python - pytest / UnitTest
 
 TestNG -> JUnit + NUnit 
 
+--------------------------------------------------
+Day 37 : 29th August  - Friday
+--------------------------------------------------
+
+Annotattion in TestNG 
+
+@Test --> here the annotated method is nothing but the test case 
+
+Note 1:
+
+if you have more than one @Test in a class 
+the execution order will be in alphabetic order of method names 
+
+loginTest
+registrationTest 
+
+Note 2:
+
+if you wish to execute the test in some order the user priority paramter 
+to @Test 
+
+@BeforeMethod --> here the annotated method is executed before each and every @Test 
+
+@AfterMethod --> here the annotated method is executed after each and every @Test 
+
+
+---------------------------------------------
+Xpath writing techniques
+---------------------------------------------
+
+Xpath -> XML path 
+
+this is query lang to find XML nodes 
+
+<tagname --> XML nodes 
+
+
+XML is implementation of HTML , so you can use Xpath to find HTML nodes also 
+
+
+										Xpath 
+								
+				
+					absolute xpath 					relative xpath 
+			starts from root (root means html )		starts from any node or tagname 
+  
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/input
+
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/input
+
+(//span[@class='a-declarative']/descendant::h2)[7]
+
