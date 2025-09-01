@@ -678,3 +678,110 @@ XML is implementation of HTML , so you can use Xpath to find HTML nodes also
 
 (//span[@class='a-declarative']/descendant::h2)[7]
 
+--------------------------------------------------
+Day 39 : 1st September  - Monday
+--------------------------------------------------
+
+relative xpath : 
+
+html terminologies 
+
+<input type="text" name="username" id="username" class="login_input" value="">
+
+<tagName attribute1="value of attribute1" ... attributen="value of attributen">
+
+<a href="ForgotPassword.php">Forgot Password?</a>
+
+<tagName attribute1="value of attribute1" ... attributen="value of attributen">text on element</tagName>
+
+
+-------------------------------------------------
+xpath based on tagname and attribute or attrbutes 
+-------------------------------------------------
+
+//tagname[@attrbute='value of attrbute']
+
+<input type="text" name="username" id="username" class="login_input" value="">
+
+//input[@id='username']
+
+some e.g 
+
+
+<input type="text"  class="login_input" value="">   //username textbox
+
+<input type="password"  class="login_input" value=""> //passwrod textbox 
+
+write xpath for password textbox 
+
+//input[@class='login_input']  -->  1 of 2 
+
+//input[@class='login_input' and @type='password']  --> 1 of 1 
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: 
+{"method":"xpath","selector":"//a[@id='u_0_0_Yf']"}
+  (Session info: chrome=139.0.7258.155)
+_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
+
+_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
+
+------------------------------------------------
+xpath based on tagname and text on element
+------------------------------------------------
+
+//tagname[text()='text on element']
+
+<a role="button" class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" href="/r.php?entry_point=login" ajaxify="" id="u_0_0_MV" data-testid="open-registration-form-button">Create new account</a>
+
+//a[text()='Create new account']
+
+
+
+
+---------------------------------------
+xpath contains
+---------------------------------------
+
+contains can be used for attributes or text 
+
+//tagname[contains(@attrbute,'subset or value of attribute')]
+
+//tagname[contains(text(),'subset or text on element')]
+
+
+<img src="img/google-play.png">
+
+//img[contains(@src,'google-play')]
+
+//label[contains(text(),'Password')]
+
+
+---------------------------------------------------
+xpath starts-with 
+
+xpath ends-with 
+----------------------------------------------------
+
+<a role="button" class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" 
+href="/r.php?entry_point=login" ajaxify="" id="u_0_0_MV" 
+data-testid="open-registration-form-button">Create new account</a>
+
+//tagname[starts-with(@attribute,'prefix or starting value of attribute']
+//a[starts-with(@id,'u_0_0_')]
+
+//a[end-with(text(),'new account')]
+
+note : mostly we don't use  ends-with
+
+Selenium’s XPath engine (based on browser’s XPath implementation) supports XPath 1.0 only.
+
+Functions like ends-with() exist only in XPath 2.0 (not available in browsers).
+
+-------------------------------------------
+xpath axes 
+-------------------------------------------
+
+//div[text()='Make Money with Us']/parent::div[@class='navFooterLinkCol navAccessibility']
+
+//a[text()='Sell under Amazon Accelerator']/parent::li/following-sibling::li[1]/child::a
+

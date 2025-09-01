@@ -40,6 +40,7 @@ public class AllLinksTesting2 {
 			 System.out.println(driver.getCurrentUrl()); 
 			 driver.navigate().back();
 			 Thread.sleep(1000); 
+			 allLinks=driver.findElements(By.tagName("a"));
 		}
 		
 		Thread.sleep(5000);

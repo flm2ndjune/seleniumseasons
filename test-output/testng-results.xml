@@ -1,61 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-29T20:53:31 IST" name="Default suite" finished-at="2025-08-29T20:53:32 IST" duration-ms="77">
+  <suite started-at="2025-09-01T21:36:14 IST" name="Suite" finished-at="2025-09-01T21:36:14 IST" duration-ms="82">
     <groups>
     </groups>
-    <test started-at="2025-08-29T20:53:31 IST" name="Default test" finished-at="2025-08-29T20:53:32 IST" duration-ms="77">
-      <class name="testng.AdactinHotelApp2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:31 IST" name="setUp" finished-at="2025-08-29T20:53:32 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="registrationTest()[pri:1, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="registrationTest" finished-at="2025-08-29T20:53:32 IST" duration-ms="4" status="PASS">
+    <test started-at="2025-09-01T21:36:14 IST" name="Test" finished-at="2025-09-01T21:36:14 IST" duration-ms="82">
+      <class name="testng.AdactinHotelApp">
+        <test-method signature="registrationTest()[pri:1, instance:testng.AdactinHotelApp@1a6d8329]" started-at="2025-09-01T21:36:14 IST" name="registrationTest" finished-at="2025-09-01T21:36:14 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="teardown" finished-at="2025-08-29T20:53:32 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="loginTest()[pri:2, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="loginTest" finished-at="2025-08-29T20:53:32 IST" duration-ms="4" status="PASS">
+        <test-method signature="loginTest()[pri:2, instance:testng.AdactinHotelApp@1a6d8329]" started-at="2025-09-01T21:36:14 IST" name="loginTest" finished-at="2025-09-01T21:36:14 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testng.AdactinHotelApp.loginTest(AdactinHotelApp.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="setUp" finished-at="2025-08-29T20:53:32 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="teardown" finished-at="2025-08-29T20:53:32 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="forgotPasswordTest()[pri:3, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="forgotPasswordTest" finished-at="2025-08-29T20:53:32 IST" duration-ms="1" status="PASS">
+        <test-method signature="forgotPasswordTest()[pri:3, instance:testng.AdactinHotelApp@1a6d8329]" started-at="2025-09-01T21:36:14 IST" name="forgotPasswordTest" finished-at="2025-09-01T21:36:14 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPasswordTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="setUp" finished-at="2025-08-29T20:53:32 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="teardown" finished-at="2025-08-29T20:53:32 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="changePasswordTest()[pri:4, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="changePasswordTest" finished-at="2025-08-29T20:53:32 IST" depends-on-methods="testng.AdactinHotelApp2.loginTest" duration-ms="2" status="PASS">
+        <test-method signature="changePasswordTest()[pri:4, instance:testng.AdactinHotelApp@1a6d8329]" started-at="2025-09-01T21:36:14 IST" name="changePasswordTest" finished-at="2025-09-01T21:36:14 IST" depends-on-methods="testng.AdactinHotelApp.loginTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testng.AdactinHotelApp.changePasswordTest() on instance testng.AdactinHotelApp@1a6d8329 depends on not successfully finished methods 
+[testng.AdactinHotelApp.loginTest() on instance testng.AdactinHotelApp@1a6d8329]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testng.AdactinHotelApp.changePasswordTest() on instance testng.AdactinHotelApp@1a6d8329 depends on not successfully finished methods 
+[testng.AdactinHotelApp.loginTest() on instance testng.AdactinHotelApp@1a6d8329]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="setUp" finished-at="2025-08-29T20:53:32 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.AdactinHotelApp2@7e057f43]" started-at="2025-08-29T20:53:32 IST" name="teardown" finished-at="2025-08-29T20:53:32 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testng.AdactinHotelApp2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testng.AdactinHotelApp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

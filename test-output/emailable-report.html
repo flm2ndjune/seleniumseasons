@@ -8,14 +8,20 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">77</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">82</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testng.AdactinHotelApp2</td><td><a href="#m0">changePasswordTest</a></td><td rowspan="1">1756481012025</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m1">forgotPasswordTest</a></td><td rowspan="1">1756481012021</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m2">loginTest</a></td><td rowspan="1">1756481012013</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m3">registrationTest</a></td><td rowspan="1">1756481012002</td><td rowspan="1">4</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testng.AdactinHotelApp</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1756742774322</td><td rowspan="1">11</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testng.AdactinHotelApp</td><td><a href="#m1">changePasswordTest</a></td><td rowspan="1">1756742774350</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testng.AdactinHotelApp</td><td><a href="#m2">forgotPasswordTest</a></td><td rowspan="1">1756742774343</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m3">registrationTest</a></td><td rowspan="1">1756742774311</td><td rowspan="1">7</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">testng.AdactinHotelApp2#changePasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testng.AdactinHotelApp2#forgotPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testng.AdactinHotelApp2#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testng.AdactinHotelApp2#registrationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">testng.AdactinHotelApp#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at testng.AdactinHotelApp.loginTest(AdactinHotelApp.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testng.AdactinHotelApp#changePasswordTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method testng.AdactinHotelApp.changePasswordTest() on instance testng.AdactinHotelApp@1a6d8329 depends on not successfully finished methods 
+[testng.AdactinHotelApp.loginTest() on instance testng.AdactinHotelApp@1a6d8329]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testng.AdactinHotelApp#forgotPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testng.AdactinHotelApp#registrationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
