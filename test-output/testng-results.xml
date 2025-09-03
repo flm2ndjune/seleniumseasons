@@ -1,25 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-02T21:07:21 IST" name="Default suite" finished-at="2025-09-02T21:07:31 IST" duration-ms="9977">
+  <suite started-at="2025-09-03T21:20:54 IST" name="Default suite" finished-at="2025-09-03T21:21:12 IST" duration-ms="18290">
     <groups>
     </groups>
-    <test started-at="2025-09-02T21:07:21 IST" name="Default test" finished-at="2025-09-02T21:07:31 IST" duration-ms="9977">
-      <class name="miscellenousactions.DragAndDrop">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:miscellenousactions.DragAndDrop@cc43f62]" started-at="2025-09-02T21:07:21 IST" name="setUp" finished-at="2025-09-02T21:07:25 IST" duration-ms="4068" status="PASS">
+    <test started-at="2025-09-03T21:20:54 IST" name="Default test" finished-at="2025-09-03T21:21:12 IST" duration-ms="18290">
+      <class name="miscellenousactions.Scrolling3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:miscellenousactions.Scrolling3@268f106e]" started-at="2025-09-03T21:20:54 IST" name="setUp" finished-at="2025-09-03T21:21:00 IST" duration-ms="6159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mouseHoverTest()[pri:0, instance:miscellenousactions.DragAndDrop@cc43f62]" started-at="2025-09-02T21:07:25 IST" name="mouseHoverTest" finished-at="2025-09-02T21:07:25 IST" duration-ms="439" status="PASS">
+        <test-method signature="scrollTest()[pri:0, instance:miscellenousactions.Scrolling3@268f106e]" started-at="2025-09-03T21:21:00 IST" name="scrollTest" finished-at="2025-09-03T21:21:06 IST" duration-ms="6541" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div _ngcontent-serverapp-c122="" data-test="patternSectionDesk-0">...</div> is not clickable at point (767, 580). Other element would receive the click: <img _ngcontent-serverapp-c128="" alt="studios across cities image" src="https://ii1.pepperfry.com/assets/w23_store_image.jpg">
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ab743a4bf7c98cf127e5d3955ad9164, clickElement {id=f.8694482F2C4C58DBEECA1312A19F1227.d.01071A98D4EBE4DE5E492374FDA6ED6E.e.188}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Riyaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61680/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8ab743a4bf7c98cf127e5d3955ad9164)] -> xpath: //div[text()='Sell on Pepperfry']]
+Session ID: 8ab743a4bf7c98cf127e5d3955ad9164]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div _ngcontent-serverapp-c122="" data-test="patternSectionDesk-0">...</div> is not clickable at point (767, 580). Other element would receive the click: <img _ngcontent-serverapp-c128="" alt="studios across cities image" src="https://ii1.pepperfry.com/assets/w23_store_image.jpg">
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ab743a4bf7c98cf127e5d3955ad9164, clickElement {id=f.8694482F2C4C58DBEECA1312A19F1227.d.01071A98D4EBE4DE5E492374FDA6ED6E.e.188}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Riyaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61680/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8ab743a4bf7c98cf127e5d3955ad9164)] -> xpath: //div[text()='Sell on Pepperfry']]
+Session ID: 8ab743a4bf7c98cf127e5d3955ad9164
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at miscellenousactions.Scrolling3.scrollTest(Scrolling3.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mouseHoverTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:miscellenousactions.DragAndDrop@cc43f62]" started-at="2025-09-02T21:07:25 IST" name="teardown" finished-at="2025-09-02T21:07:31 IST" duration-ms="5419" status="PASS">
+        </test-method> <!-- scrollTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:miscellenousactions.Scrolling3@268f106e]" started-at="2025-09-03T21:21:06 IST" name="teardown" finished-at="2025-09-03T21:21:12 IST" duration-ms="5542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- miscellenousactions.DragAndDrop -->
+      </class> <!-- miscellenousactions.Scrolling3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
