@@ -938,6 +938,20 @@ solution : scroll to that element either using Actions class scrollToElement or 
 
 scrollToElement(WebElement):Actions 
 
+--------------------------------------------------
+Day 42 : 4th September  - Thursday
+--------------------------------------------------
 
+
+Multiple Window or tabs handling 
+
+
+getWindowHandle():String 
+
+driver.switchTo().window(String):void ==> here String is window hadle 
+i.e window id which we can retrieve by getWindowHandle
+
+
+getWindowHandles():Set<String>
 
 
