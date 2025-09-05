@@ -955,3 +955,67 @@ i.e window id which we can retrieve by getWindowHandle
 getWindowHandles():Set<String>
 
 
+
+--------------------------------------------------
+Day 43 : 5th September  - Friday
+--------------------------------------------------
+
+**********************
+Frames Handling
+**********************
+Frame -> it's an html intergarted in another html page 
+
+
+							frames 
+							
+							
+			frame 								iframe 
+			
+			older html (<html 5)				>=html4 or html 5 
+
+driver.switchTo()
+
+frame(int)  --> here int is the index of frame/iframem starts from 0 (from top of the page) //not prefered 
+frame(String) --> here String is id or name attribute of frame/iframe 
+frame(WebElement) --> here WebElemnt is the frame/iframe 
+
+defaultContent()
+
+parentFrame()
+
+
+NoSuchFrameException
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id demo-frame
+
+Reason: wrong id or name given as String to switch to frame 
+solution : if id or name present then use them correctly otherwise use WebElement argument '
+i.e driver.switchTo().frame(WebElement) ;
+
+
+
+P to F --> driver.switchTo().frame();
+F1 to F2 --> F2 is child of F1 --> driver.switchTo().frame();
+F2 to F1 --> F2 is child of F1 --> driver.switchTo().parentFrame();
+F to P -> driver.switchTo().defaultContent();
+
+
+???????????????????????????????????????????????????????
+Assignment - 6
+
+go to below app
+
+https://demo.guru99.com/test/guru99home/
+
+
+Click on the image "Jmeter Made Easy"
+
+Then a new tab will get opened 
+
+switch to that tab and print the texts in "Top Tutorials" module
+
+hint : 
+xpath for Top tutorials text 
+
+//p[text()='Top Tutorials']/ancestor::div[contains(@class,'wp-block-kadence-column')][1]/descendant::span[@class='kt-blocks-info-box-title']
+
+???????????????????????????????????????????????????????????????????????

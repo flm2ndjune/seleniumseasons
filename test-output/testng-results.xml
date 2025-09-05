@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-04T21:12:06 IST" name="Default suite" finished-at="2025-09-04T21:12:36 IST" duration-ms="29987">
+  <suite started-at="2025-09-05T20:56:20 IST" name="Default suite" finished-at="2025-09-05T20:57:41 IST" duration-ms="81409">
     <groups>
     </groups>
-    <test started-at="2025-09-04T21:12:06 IST" name="Default test" finished-at="2025-09-04T21:12:36 IST" duration-ms="29987">
-      <class name="handlings.MultipleWindowHandle3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:handlings.MultipleWindowHandle3@5b218417]" started-at="2025-09-04T21:12:06 IST" name="setUp" finished-at="2025-09-04T21:12:11 IST" duration-ms="4348" status="PASS">
+    <test started-at="2025-09-05T20:56:20 IST" name="Default test" finished-at="2025-09-05T20:57:41 IST" duration-ms="81409">
+      <class name="handlings.FrameHandling2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:handlings.FrameHandling2@5b218417]" started-at="2025-09-05T20:56:20 IST" name="setUp" finished-at="2025-09-05T20:57:20 IST" duration-ms="60542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="multipeWindowHandleTest()[pri:0, instance:handlings.MultipleWindowHandle3@5b218417]" started-at="2025-09-04T21:12:11 IST" name="multipeWindowHandleTest" finished-at="2025-09-04T21:12:31 IST" duration-ms="20088" status="PASS">
+        <test-method signature="frameHandlingTest()[pri:0, instance:handlings.FrameHandling2@5b218417]" started-at="2025-09-05T20:57:20 IST" name="frameHandlingTest" finished-at="2025-09-05T20:57:36 IST" duration-ms="15190" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipeWindowHandleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:handlings.MultipleWindowHandle3@5b218417]" started-at="2025-09-04T21:12:31 IST" name="teardown" finished-at="2025-09-04T21:12:36 IST" duration-ms="5504" status="PASS">
+        </test-method> <!-- frameHandlingTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:handlings.FrameHandling2@5b218417]" started-at="2025-09-05T20:57:36 IST" name="teardown" finished-at="2025-09-05T20:57:41 IST" duration-ms="5607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- handlings.MultipleWindowHandle3 -->
+      </class> <!-- handlings.FrameHandling2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

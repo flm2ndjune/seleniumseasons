@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="miscellenousactions.Scrolling3">
+      <class name="handlings.FrameHandling2">
         <methods>
-          <include name="teardown"/>
-          <include name="scrollTest"/>
+          <include name="frameHandlingTest"/>
           <include name="setUp"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- miscellenousactions.Scrolling3 -->
+      </class> <!-- handlings.FrameHandling2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
