@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-05T20:56:20 IST" name="Default suite" finished-at="2025-09-05T20:57:41 IST" duration-ms="81409">
+  <suite started-at="2025-09-08T20:59:04 IST" name="Default suite" finished-at="2025-09-08T20:59:31 IST" duration-ms="27375">
     <groups>
     </groups>
-    <test started-at="2025-09-05T20:56:20 IST" name="Default test" finished-at="2025-09-05T20:57:41 IST" duration-ms="81409">
-      <class name="handlings.FrameHandling2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:handlings.FrameHandling2@5b218417]" started-at="2025-09-05T20:56:20 IST" name="setUp" finished-at="2025-09-05T20:57:20 IST" duration-ms="60542" status="PASS">
+    <test started-at="2025-09-08T20:59:04 IST" name="Default test" finished-at="2025-09-08T20:59:31 IST" duration-ms="27375">
+      <class name="javascriptexecutorandscreenshots.NoHighlight">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:javascriptexecutorandscreenshots.NoHighlight@5b218417]" started-at="2025-09-08T20:59:04 IST" name="setUp" finished-at="2025-09-08T20:59:09 IST" duration-ms="4478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="frameHandlingTest()[pri:0, instance:handlings.FrameHandling2@5b218417]" started-at="2025-09-05T20:57:20 IST" name="frameHandlingTest" finished-at="2025-09-05T20:57:36 IST" duration-ms="15190" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:javascriptexecutorandscreenshots.NoHighlight@5b218417]" started-at="2025-09-08T20:59:09 IST" name="loginTest" finished-at="2025-09-08T20:59:26 IST" duration-ms="17453" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- frameHandlingTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:handlings.FrameHandling2@5b218417]" started-at="2025-09-05T20:57:36 IST" name="teardown" finished-at="2025-09-05T20:57:41 IST" duration-ms="5607" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:javascriptexecutorandscreenshots.NoHighlight@5b218417]" started-at="2025-09-08T20:59:26 IST" name="teardown" finished-at="2025-09-08T20:59:31 IST" duration-ms="5389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- handlings.FrameHandling2 -->
+      </class> <!-- javascriptexecutorandscreenshots.NoHighlight -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
