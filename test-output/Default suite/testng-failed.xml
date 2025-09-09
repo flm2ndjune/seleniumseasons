@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="handlings.AlertHandling">
+      <class name="assignments.Assignment6WindowHandling">
         <methods>
-          <include name="teardown"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="alertHandlingTest"/>
+          <include name="alertHandling"/>
         </methods>
-      </class> <!-- handlings.AlertHandling -->
+      </class> <!-- assignments.Assignment6WindowHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
