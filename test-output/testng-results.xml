@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-09T21:33:02 IST" name="Default suite" finished-at="2025-09-09T21:33:53 IST" duration-ms="51306">
+  <suite started-at="2025-09-10T21:13:26 IST" name="Default suite" finished-at="2025-09-10T21:13:41 IST" duration-ms="14699">
     <groups>
     </groups>
-    <test started-at="2025-09-09T21:33:02 IST" name="Default test" finished-at="2025-09-09T21:33:53 IST" duration-ms="51306">
-      <class name="assignments.Assignment6WindowHandling">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignments.Assignment6WindowHandling@6e9a5ed8]" started-at="2025-09-09T21:33:02 IST" name="setUp" finished-at="2025-09-09T21:33:35 IST" duration-ms="33471" status="PASS">
+    <test started-at="2025-09-10T21:13:26 IST" name="Default test" finished-at="2025-09-10T21:13:41 IST" duration-ms="14699">
+      <class name="waits.FluentWaitDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:waits.FluentWaitDemo@6e9a5ed8]" started-at="2025-09-10T21:13:26 IST" name="setUp" finished-at="2025-09-10T21:13:30 IST" duration-ms="3643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="alertHandling()[pri:0, instance:assignments.Assignment6WindowHandling@6e9a5ed8]" started-at="2025-09-09T21:33:35 IST" name="alertHandling" finished-at="2025-09-09T21:33:47 IST" duration-ms="12265" status="PASS">
+        <test-method signature="waitsTest()[pri:0, instance:waits.FluentWaitDemo@6e9a5ed8]" started-at="2025-09-10T21:13:30 IST" name="waitsTest" finished-at="2025-09-10T21:13:35 IST" duration-ms="5585" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alertHandling -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignments.Assignment6WindowHandling@6e9a5ed8]" started-at="2025-09-09T21:33:47 IST" name="tearDown" finished-at="2025-09-09T21:33:53 IST" duration-ms="5507" status="PASS">
+        </test-method> <!-- waitsTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:waits.FluentWaitDemo@6e9a5ed8]" started-at="2025-09-10T21:13:35 IST" name="teardown" finished-at="2025-09-10T21:13:41 IST" duration-ms="5419" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- assignments.Assignment6WindowHandling -->
+        </test-method> <!-- teardown -->
+      </class> <!-- waits.FluentWaitDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

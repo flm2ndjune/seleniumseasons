@@ -1108,3 +1108,88 @@ JavaScriptExcecutor
 
 executeScript(String, Object...):Object 
 
+here String is the javascrript statement 
+
+Object... variable number of arguments of some type (in general object)
+
+
+window.scrollTo(0,2000);
+
+??????????????????????????????????????????
+What are the differnt ways to click element in selenium
+1) click method of WebElement  ( 50 - 50)
+2) click method of Actions class (90 %) 
+3) using JavaScriptExcecutor click (100 %)
+??????????????????????????????????????????
+
+******************************
+Screenshots
+******************************
+TakesScreenshot(I)
+
+getScreenshotAs(OutputType<X>):X 
+
+OutputType(I)
+
+
+BASE64 : OutputType<String>
+BYTES : OutputType<byte[]>
+FILE : OutputType<File>
+
+
+File srcFile=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		
+File destFile=new File("D:\\FLM2ndJuneWS\\adactin1.png");
+		
+Files.copy(srcFile, destFile);
+		
+		
+		
+		
+
+--------------------------------------------------
+Day 46 : 10th September  - Wednesday
+--------------------------------------------------
+
+*******************************************
+Waits or Synchronization or Timeouts
+*******************************************
+
+
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: 
+{"method":"xpath","selector":"//p[text()='Forgot your password? ']"}
+  (Session info: chrome=139.0.7258.155)
+
+1) Hard Wait - Thread.sleep(n ms) --> not prefered
+
+2) Implicit Wait 
+
+
+implicitlyWait(Duration)
+
+driver.manage().timeouts().implicitlyWait(Duration);
+
+3) Explicit Wait or WebDriver Wait 
+
+java.lang.AssertionError: expected [5] but found [2+3]
+
+WebDriverWait(WebDriver, Duration)
+WebDriverWait(WebDriver, Duration, Duration)
+WebDriverWait(WebDriver, Duration, Duration, Clock, Sleeper)
+
+
+		WebDriverWait myWait=new WebDriverWait(driver, Duration.ofSeconds(30));
+		myWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//span[@id='spinner']")));
+		
+
+4) Fluent Wait 
+
+Disadvantages of WebDriverWait :
+
+-> in previous version of selenium 
+WebDriverWait myWait=new WebDriverWait(driver, long ); ==> here long means no of seconds 
+-> polling is always 500 milli seconds 
+-> no Internal exception handling mechanism 
+
+https://emi-calculator.net/
