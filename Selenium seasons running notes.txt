@@ -1185,6 +1185,10 @@ WebDriverWait(WebDriver, Duration, Duration, Clock, Sleeper)
 
 4) Fluent Wait 
 
+FluentWait(T)
+FluentWait(T, Clock, Sleeper)
+
+
 Disadvantages of WebDriverWait :
 
 -> in previous version of selenium 
@@ -1193,3 +1197,42 @@ WebDriverWait myWait=new WebDriverWait(driver, long ); ==> here long means no of
 -> no Internal exception handling mechanism 
 
 https://emi-calculator.net/
+
+--------------------------------------------------
+Day 47 : 11th September  - Thursday
+--------------------------------------------------
+
+tried for 30 second(s) with 500 milliseconds interval
+tried for 30 second(s) with 200 milliseconds interval
+
+Radio button testing 
+
+-> isSelected():boolean 
+
+Check box testing 
+
+----------------------------
+WebTable 
+
+				static        Dynamic 
+				
+html terminology for webtable 
+
+<table 
+ <thead
+ <tbody
+      <tr
+         <td 
+         <td 
+           :
+      <tr 
+		 <td 
+         <td 
+           :	  
+	
+
+//table/tbody/tr[1]/td[1]/a	
+//table/tbody/tr[2]/td[1]/a		   
+:
+:
+//table/tbody/tr[36]/td[1]/a

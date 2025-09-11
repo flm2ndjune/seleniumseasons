@@ -37,7 +37,9 @@ public class ExplicitWaitDemo {
 		driver.findElement(By.xpath("//span[text()='=']")).click();
 		
 		WebDriverWait myWait=new WebDriverWait(driver, Duration.ofSeconds(30));
-		myWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//span[@id='spinner']")));
+		myWait.pollingEvery(Duration.ofMillis(200));
+		myWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@id='spinner1']")));
+		myWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//span[@id='spinner1']")));
 		
 		Assert.assertEquals(driver.findElement(By.xpath("//div[@class='screen']")).getText(), "5");
 		
