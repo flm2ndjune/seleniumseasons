@@ -1236,3 +1236,48 @@ html terminology for webtable
 :
 :
 //table/tbody/tr[36]/td[1]/a
+
+
+--------------------------------------------------
+Day 48 : 12th September  - Friday
+--------------------------------------------------
+
+
+Note : 
+for tomorrow's (i.e Saturday's special class on arrays and String)
+Arrays  - Day 28 ending and Day 29 
+Collections - Day 30
+(Searching techniques - Linear Search and Binary Search) - Day 33 
+Sorting (Bubble sort and Selection sort) - Day 38 
+
+
+//table/tbody/tr[1]/td[1]	 //table/tbody/tr[1]/td[2] ...//table/tbody/tr[1]/td[8]
+//table/tbody/tr[2]/td[1]		...   
+:
+:
+//table/tbody/tr[36]/td[1] ....
+
+String part1="//table/tbody/tr[";
+String part2="]/td[";
+String part3="]";
+
+
+**********************
+File Uploading
+**********************
+<input type="file" 
+
+if you finf input tag with type=file 
+you can use sendKeys method to upload 
+
+File Uploading using Robot class 
+
+
+Robot 
+
+a 1 
+keyPress(KeyEvent.VK_A 
+keyRelease(
+
+KeyEvent 
+VK_A 

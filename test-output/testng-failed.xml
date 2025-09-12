@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignments.ramesh.Assignment5">
+      <class name="extratopics.FileUploadUsingRobotClass">
         <methods>
-          <include name="tearDown"/>
+          <include name="teardown"/>
           <include name="setUp"/>
-          <include name="doubleClickTest"/>
+          <include name="fileUploadTest"/>
         </methods>
-      </class> <!-- assignments.ramesh.Assignment5 -->
+      </class> <!-- extratopics.FileUploadUsingRobotClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
