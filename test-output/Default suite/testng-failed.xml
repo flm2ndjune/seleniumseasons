@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="extratopics.FileUploadUsingRobotClass">
+      <class name="extratopics.ShadowDOM">
         <methods>
+          <include name="shadowDOMTest"/>
           <include name="teardown"/>
           <include name="setUp"/>
-          <include name="fileUploadTest"/>
         </methods>
-      </class> <!-- extratopics.FileUploadUsingRobotClass -->
+      </class> <!-- extratopics.ShadowDOM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

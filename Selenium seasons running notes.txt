@@ -1281,3 +1281,90 @@ keyRelease(
 
 KeyEvent 
 VK_A 
+--------------------------------------------------
+Day 50 : 15th September  - Saturday
+--------------------------------------------------
+
+1xx
+2xx
+3xx
+4xx
+5xx
+
+if Response code >=400 , that link is broken 
+
+Congratulations! You must have the proper credentials. 
+Congratulations! You must have the proper credentials.
+
+--------------------------------------------------
+Day 51 : 16th September  - Tuesday
+--------------------------------------------------
+
+Shadow DOM handling 
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='text']"}
+  (Session info: chrome=140.0.7339.127)
+  
+Reason 4: if the element is present inside a shadow dom
+Solution 3: we need to reach to that shadow root and focus on shadow 
+
+
+org.openqa.selenium.InvalidArgumentException: invalid argument: invalid locator
+
+Reason 1: Locator strategy is wrong (may be you have written xpath for element present in shadow dom)
+
+Solution 1: Locator strategy  should be cssSelector 
+
+
+how to write cssSelector ?
+
+1. by tagname and id
+
+tagname#value of id or #value of id
+input#username  
+
+2. by tagname and class 
+tagname.className or .value of classattribute
+input.value of classattribute  
+
+3. by tagname and attribute
+
+tagname[attrbute='value']
+span[id='username_span']
+
+
+4. for child >
+
+parent > child 
+
+td>input#username
+
+5. for descendants (space)
+table span[id='username_span']
+
+ 
+???????????????????????????????????????????????????????
+Assignment - 8
+
+go to below app
+
+https://www.salesforce.com/in/
+
+mouse hover on login 
+
+hint : 
+
+use shadow
+???????????????????????????????????????????????????????????????????????
+
+
+//div[@data-testid='undefined-month-January-2026']/descendant::div[text()='15']
+
+String part1="//div[@data-testid='undefined-month-";
+String part2="']/descendant::div[text()='";
+String part3="']";
+
+
+
+
+
