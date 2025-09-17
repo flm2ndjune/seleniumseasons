@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="extratopics.ShadowDOM">
+      <class name="extratopics.DatePicker">
         <methods>
-          <include name="shadowDOMTest"/>
-          <include name="teardown"/>
           <include name="setUp"/>
+          <include name="datePickerTest"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- extratopics.ShadowDOM -->
+      </class> <!-- extratopics.DatePicker -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

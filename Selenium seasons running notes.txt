@@ -1366,5 +1366,65 @@ String part3="']";
 
 
 
+--------------------------------------------------
+Day 52 : 17th September  - Wednesday
+--------------------------------------------------
 
 
+
+???????????????????????????????????
+Assignment - 9
+automate date picker for 
+https://www.abhibus.com/
+
+?????????????????????????????????????
+
+==================================
+Maven
+==================================
+Project Management tool 
+maven or gradlle etc ..
+
+
+how to download and configure maven 
+
+https://maven.apache.org/download.cgi
+
+Downloading Apache Maven 3.9.11
+
+apache-maven-3.9.11-bin.zip
+
+configuration :
+
+go to environment variables 
+
+
+MAVEN_HOME
+D:\FLM2ndJune\jars\apache-maven-3.9.11-bin\apache-maven-3.9.11
+
+M2_HOME
+D:\FLM2ndJune\jars\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin
+
+path
+D:\FLM2ndJune\jars\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin
+
+check maven version: 
+
+goto command prompt 
+
+C:\Users\Riyaz>mvn -verison
+Apache Maven 3.9.11 (3e54c93a704957b63ee3494413a2b544fd3d825b)
+Maven home: D:\FLM2ndJune\jars\apache-maven-3.9.11-bin\apache-maven-3.9.11
+Java version: 17.0.15, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-17
+Default locale: en_IN, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\Riyaz>	
+	
+	
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.adactinhotelapp</groupId>
+  <artifactId>JavaSeasons3</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+</project>
