@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-17T20:33:08 IST" name="Default suite" finished-at="2025-09-17T20:33:30 IST" duration-ms="22483">
+  <suite started-at="2025-09-18T21:45:04 IST" name="Default suite" finished-at="2025-09-18T21:45:30 IST" duration-ms="26564">
     <groups>
     </groups>
-    <test started-at="2025-09-17T20:33:08 IST" name="Default test" finished-at="2025-09-17T20:33:30 IST" duration-ms="22483">
-      <class name="extratopics.DatePicker">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:extratopics.DatePicker@6e9a5ed8]" started-at="2025-09-17T20:33:08 IST" name="setUp" finished-at="2025-09-17T20:33:18 IST" duration-ms="10130" status="PASS">
+    <test started-at="2025-09-18T21:45:04 IST" name="Default test" finished-at="2025-09-18T21:45:30 IST" duration-ms="26564">
+      <class name="assignments.SalesForceLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:assignments.SalesForceLogin@792b749c]" started-at="2025-09-18T21:45:04 IST" name="setup" finished-at="2025-09-18T21:45:14 IST" duration-ms="10282" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="datePickerTest()[pri:0, instance:extratopics.DatePicker@6e9a5ed8]" started-at="2025-09-17T20:33:18 IST" name="datePickerTest" finished-at="2025-09-17T20:33:25 IST" duration-ms="7003" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="clickLogin()[pri:0, instance:assignments.SalesForceLogin@792b749c]" started-at="2025-09-18T21:45:14 IST" name="clickLogin" finished-at="2025-09-18T21:45:25 IST" duration-ms="10751" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- datePickerTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:extratopics.DatePicker@6e9a5ed8]" started-at="2025-09-17T20:33:25 IST" name="teardown" finished-at="2025-09-17T20:33:30 IST" duration-ms="5317" status="PASS">
+        </test-method> <!-- clickLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:assignments.SalesForceLogin@792b749c]" started-at="2025-09-18T21:45:25 IST" name="closeBrowser" finished-at="2025-09-18T21:45:30 IST" duration-ms="5429" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- extratopics.DatePicker -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- assignments.SalesForceLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
